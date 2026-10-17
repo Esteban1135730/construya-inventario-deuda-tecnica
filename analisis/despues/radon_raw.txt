@@ -1,0 +1,12 @@
+C:\Users\Esteban\Documents\universidad\codigo\_tmp_analisis\gestion_inventario.py
+    LOC: 745
+    LLOC: 370
+    SLOC: 655
+    Comments: 10
+    Single comments: 13
+    Multi: 4
+    Blank: 73
+    - Comment Stats
+        (C % L): 1%
+        (C % S): 2%
+        (C + M % L): 2%
