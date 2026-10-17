@@ -1,0 +1,27 @@
+************* Module gestion_inventario
+_tmp_analisis\gestion_inventario.py:100:0: C0301: Line too long (104/100) (line-too-long)
+_tmp_analisis\gestion_inventario.py:155:0: C0301: Line too long (103/100) (line-too-long)
+_tmp_analisis\gestion_inventario.py:181:0: C0301: Line too long (101/100) (line-too-long)
+_tmp_analisis\gestion_inventario.py:200:0: C0301: Line too long (102/100) (line-too-long)
+_tmp_analisis\gestion_inventario.py:417:0: C0301: Line too long (108/100) (line-too-long)
+_tmp_analisis\gestion_inventario.py:73:15: C0209: Formatting a regular string which could be an f-string (consider-using-f-string)
+_tmp_analisis\gestion_inventario.py:88:0: R0902: Too many instance attributes (9/7) (too-many-instance-attributes)
+_tmp_analisis\gestion_inventario.py:111:4: R0913: Too many arguments (14/5) (too-many-arguments)
+_tmp_analisis\gestion_inventario.py:111:4: R0917: Too many positional arguments (14/5) (too-many-positional-arguments)
+_tmp_analisis\gestion_inventario.py:111:4: R0914: Too many local variables (40/15) (too-many-locals)
+_tmp_analisis\gestion_inventario.py:187:8: R1705: Unnecessary "elif" after "return", replace only that "elif" with "if" (no-else-return)
+_tmp_analisis\gestion_inventario.py:111:4: R0911: Too many return statements (26/6) (too-many-return-statements)
+_tmp_analisis\gestion_inventario.py:111:4: R0912: Too many branches (32/12) (too-many-branches)
+_tmp_analisis\gestion_inventario.py:111:4: R0915: Too many statements (111/50) (too-many-statements)
+_tmp_analisis\gestion_inventario.py:11:0: W0611: Unused import json (unused-import)
+_tmp_analisis\gestion_inventario.py:12:0: W0611: Unused import math (unused-import)
+_tmp_analisis\gestion_inventario.py:13:0: W0611: Unused import os (unused-import)
+_tmp_analisis\gestion_inventario.py:14:0: W0611: Unused import random (unused-import)
+_tmp_analisis\gestion_inventario.py:15:0: W0611: Unused Optional imported from typing (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 9.33/10 (previous run: 8.86/10, +0.47)
+
+
+C:\Users\Esteban\AppData\Local\Programs\Python\Python311\Lib\site-packages\pylint\__init__.py:34: ReporterWarning: Both NO_COLOR and FORCE_COLOR are set! (disabling colors)
+  PylintRun(argv or sys.argv[1:])

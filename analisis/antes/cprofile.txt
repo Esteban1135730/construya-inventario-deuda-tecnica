@@ -1,0 +1,444 @@
+5b6efe95e65dfd55fab1a73d0ba023c61c4d85418a7d0a569311b7721c379104
+         17098 function calls (16280 primitive calls) in 0.033 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     17/1    0.000    0.000    0.033    0.033 {built-in method builtins.exec}
+        1    0.000    0.000    0.033    0.033 carga_fija.py:1(<module>)
+     25/6    0.000    0.000    0.030    0.005 <frozen importlib._bootstrap>:1165(_find_and_load)
+     25/6    0.000    0.000    0.030    0.005 <frozen importlib._bootstrap>:1120(_find_and_load_unlocked)
+     24/6    0.000    0.000    0.027    0.004 <frozen importlib._bootstrap>:666(_load_unlocked)
+     15/6    0.000    0.000    0.026    0.004 <frozen importlib._bootstrap_external>:934(exec_module)
+    52/12    0.000    0.000    0.022    0.002 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+       15    0.000    0.000    0.011    0.001 <frozen importlib._bootstrap_external>:1007(get_code)
+        1    0.000    0.000    0.008    0.008 pathlib.py:1(<module>)
+       25    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap>:1054(_find_spec)
+       17    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:1499(find_spec)
+       17    0.000    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:1467(_get_spec)
+       15    0.000    0.000    0.008    0.001 <frozen importlib._bootstrap_external>:1127(get_data)
+       57    0.001    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:1607(find_spec)
+       15    0.007    0.000    0.007    0.000 {built-in method io.open_code}
+      100    0.006    0.000    0.006    0.000 {built-in method nt.stat}
+       98    0.000    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+        1    0.000    0.000    0.005    0.005 hashlib.py:1(<module>)
+        2    0.000    0.000    0.004    0.002 __init__.py:1(<module>)
+       24    0.000    0.000    0.004    0.000 <frozen importlib._bootstrap>:566(module_from_spec)
+        1    0.000    0.000    0.004    0.004 <frozen importlib._bootstrap_external>:1231(create_module)
+        1    0.004    0.004    0.004    0.004 {built-in method _imp.create_dynamic}
+        1    0.000    0.000    0.003    0.003 parse.py:1(<module>)
+        2    0.000    0.000    0.003    0.001 {built-in method builtins.__import__}
+        1    0.000    0.000    0.003    0.003 gestion_inventario.py:1(<module>)
+        1    0.000    0.000    0.002    0.002 carga_fija.py:90(main)
+      284    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:96(_path_join)
+        1    0.000    0.000    0.002    0.002 decoder.py:1(<module>)
+       57    0.001    0.000    0.002    0.000 {built-in method builtins.__build_class__}
+        2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap>:1207(_handle_fromlist)
+        1    0.000    0.000    0.001    0.001 random.py:1(<module>)
+        7    0.000    0.000    0.001    0.000 __init__.py:225(compile)
+        7    0.000    0.000    0.001    0.000 __init__.py:272(_compile)
+       15    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:727(_compile_bytecode)
+       15    0.001    0.000    0.001    0.000 {built-in method marshal.loads}
+        1    0.000    0.000    0.001    0.001 carga_fija.py:25(ejecutar_carga)
+        7    0.000    0.000    0.001    0.000 _compiler.py:740(compile)
+       23    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+       20    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        1    0.000    0.000    0.001    0.001 fnmatch.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1239(exec_module)
+        1    0.001    0.001    0.001    0.001 {built-in method _imp.exec_dynamic}
+        1    0.000    0.000    0.001    0.001 ipaddress.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:975(exec_module)
+   622/22    0.001    0.000    0.001    0.000 copy.py:128(deepcopy)
+        1    0.000    0.000    0.001    0.001 <frozen posixpath>:1(<module>)
+       22    0.000    0.000    0.001    0.000 copy.py:227(_deepcopy_dict)
+       15    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1146(path_stats)
+        1    0.000    0.000    0.001    0.001 scanner.py:1(<module>)
+        7    0.000    0.000    0.001    0.000 _parser.py:979(parse)
+        1    0.000    0.000    0.001    0.001 datetime.py:1(<module>)
+       15    0.001    0.000    0.001    0.000 {method 'read' of '_io.BufferedReader' objects}
+        2    0.000    0.000    0.001    0.000 gestion_inventario.py:695(generar_informe_operativo)
+     15/7    0.000    0.000    0.001    0.000 _parser.py:456(_parse_sub)
+        2    0.000    0.000    0.001    0.000 pathlib.py:981(resolve)
+     17/7    0.000    0.000    0.001    0.000 _parser.py:516(_parse)
+       30    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:437(cache_from_source)
+       24    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:493(_init_module_attrs)
+        2    0.000    0.000    0.000    0.000 <frozen ntpath>:674(realpath)
+        7    0.000    0.000    0.000    0.000 _compiler.py:573(_code)
+       69    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1424(_path_importer_cache)
+        2    0.000    0.000    0.000    0.000 carga_fija.py:76(_serializar)
+        2    0.000    0.000    0.000    0.000 __init__.py:183(dumps)
+        2    0.000    0.000    0.000    0.000 encoder.py:183(encode)
+        1    0.000    0.000    0.000    0.000 encoder.py:1(<module>)
+        2    0.000    0.000    0.000    0.000 encoder.py:205(iterencode)
+        4    0.000    0.000    0.000    0.000 {built-in method nt._getfinalpathname}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1411(_path_hooks)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:2268(_IPv6Constants)
+       28    0.000    0.000    0.000    0.000 ipaddress.py:2192(__init__)
+        1    0.000    0.000    0.000    0.000 gestion_inventario.py:680(obtener_movimientos)
+       31    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:392(cached)
+        1    0.000    0.000    0.000    0.000 gestion_inventario.py:701(<listcomp>)
+        1    0.000    0.000    0.000    0.000 pathlib.py:1070(write_text)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:567(_get_cached)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:169(__enter__)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1542(_IPv4Constants)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1658(_fill_cache)
+     28/7    0.000    0.000    0.000    0.000 _compiler.py:37(_compile)
+       19    0.000    0.000    0.000    0.000 ipaddress.py:1475(__init__)
+       16    0.000    0.000    0.000    0.000 {method '__exit__' of '_io._IOBase' objects}
+        1    0.000    0.000    0.000    0.000 carga_fija.py:85(checksum_de)
+        3    0.000    0.000    0.000    0.000 __init__.py:350(namedtuple)
+       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
+      284    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:119(<listcomp>)
+        3    0.000    0.000    0.000    0.000 {built-in method nt.listdir}
+        1    0.000    0.000    0.000    0.000 pathlib.py:1036(open)
+        1    0.000    0.000    0.000    0.000 {built-in method io.open}
+       43    0.000    0.000    0.000    0.000 ipaddress.py:1889(__init__)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1699(path_hook_for_FileFinder)
+        3    0.000    0.000    0.000    0.000 <frozen zipimport>:64(__init__)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1602(_get_spec)
+       14    0.000    0.000    0.000    0.000 hashlib.py:126(__get_openssl_constructor)
+       30    0.000    0.000    0.000    0.000 ipaddress.py:1282(__init__)
+        9    0.000    0.000    0.000    0.000 gestion_inventario.py:111(procesar_operacion_completa)
+      948    0.000    0.000    0.000    0.000 {method 'endswith' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:164(_path_isdir)
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:778(spec_from_file_location)
+1339/1306    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       12    0.000    0.000    0.000    0.000 datetime.py:592(__new__)
+       28    0.000    0.000    0.000    0.000 ipaddress.py:1617(_ip_int_from_string)
+      650    0.000    0.000    0.000    0.000 {method 'startswith' of 'str' objects}
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:770(create_module)
+        2    0.000    0.000    0.000    0.000 pathlib.py:1008(stat)
+       15    0.000    0.000    0.000    0.000 _compiler.py:243(_optimize_charset)
+       20    0.000    0.000    0.000    0.000 ipaddress.py:1183(_ip_int_from_string)
+        7    0.000    0.000    0.000    0.000 _compiler.py:511(_compile_info)
+      278    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       30    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:132(_path_split)
+        7    0.000    0.000    0.000    0.000 {built-in method _imp.create_builtin}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.eval}
+       65    0.000    0.000    0.000    0.000 {built-in method from_bytes}
+     1391    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       77    0.000    0.000    0.000    0.000 _parser.py:261(get)
+      882    0.000    0.000    0.000    0.000 {method 'rstrip' of 'str' objects}
+      924    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       47    0.000    0.000    0.000    0.000 ipaddress.py:533(_split_addr_prefix)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:71(__init__)
+      302    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
+       25    0.000    0.000    0.000    0.000 __init__.py:89(find_spec)
+       19    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:172(_path_isabs)
+        4    0.000    0.000    0.000    0.000 pathlib.py:504(_from_parts)
+      785    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      134    0.000    0.000    0.000    0.000 _parser.py:168(__getitem__)
+       80    0.000    0.000    0.000    0.000 ipaddress.py:1209(_parse_octet)
+        5    0.000    0.000    0.000    0.000 pathlib.py:484(_parse_args)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:642(_classify_pyc)
+        2    0.000    0.000    0.000    0.000 hashlib.py:82(__get_builtin_constructor)
+       36    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+       18    0.000    0.000    0.000    0.000 enum.py:688(__call__)
+       22    0.000    0.000    0.000    0.000 copy.py:259(_reconstruct)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:748(find_spec)
+        4    0.000    0.000    0.000    0.000 enum.py:1514(__or__)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:173(__exit__)
+      330    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+       14    0.000    0.000    0.000    0.000 enum.py:1525(__and__)
+       50    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 datetime.py:1665(datetime)
+       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:100(acquire)
+       28    0.000    0.000    0.000    0.000 ipaddress.py:1597(_make_netmask)
+        1    0.000    0.000    0.000    0.000 bisect.py:1(<module>)
+       18    0.000    0.000    0.000    0.000 enum.py:1095(__new__)
+        5    0.000    0.000    0.000    0.000 pathlib.py:56(parse_parts)
+       27    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:125(release)
+       44    0.000    0.000    0.000    0.000 carga_fija.py:77(default)
+    35/14    0.000    0.000    0.000    0.000 _parser.py:178(getwidth)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:778(exec_module)
+       57    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:67(_relax_case)
+        1    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+        1    0.000    0.000    0.000    0.000 pathlib.py:857(Path)
+      732    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+        2    0.000    0.000    0.000    0.000 pathlib.py:868(__new__)
+        7    0.000    0.000    0.000    0.000 functools.py:518(decorating_function)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1883(IPv6Address)
+        7    0.000    0.000    0.000    0.000 {built-in method _imp.exec_builtin}
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1562(__init__)
+       90    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
+       45    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
+       19    0.000    0.000    0.000    0.000 ipaddress.py:1157(_make_netmask)
+      111    0.000    0.000    0.000    0.000 _parser.py:240(__next)
+        7    0.000    0.000    0.000    0.000 _parser.py:98(closegroup)
+        8    0.000    0.000    0.000    0.000 functools.py:35(update_wrapper)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:675(_validate_timestamp_pyc)
+      138    0.000    0.000    0.000    0.000 {method 'rpartition' of 'str' objects}
+      578    0.000    0.000    0.000    0.000 copy.py:182(_deepcopy_atomic)
+       47    0.000    0.000    0.000    0.000 ipaddress.py:156(_split_optional_netmask)
+        2    0.000    0.000    0.000    0.000 enum.py:1377(_missing_)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:198(cb)
+       44    0.000    0.000    0.000    0.000 copy.py:264(<genexpr>)
+       85    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1030(__exit__)
+       75    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+       18    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:920(find_spec)
+       44    0.000    0.000    0.000    0.000 copy.py:243(_keep_alive)
+        8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:422(spec_from_loader)
+       54    0.000    0.000    0.000    0.000 enum.py:1507(_get_value)
+       85    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1026(__enter__)
+        1    0.000    0.000    0.000    0.000 datetime.py:2293(timezone)
+       31    0.000    0.000    0.000    0.000 ipaddress.py:1721(_parse_hextet)
+       44    0.000    0.000    0.000    0.000 {method 'isoformat' of 'datetime.datetime' objects}
+      118    0.000    0.000    0.000    0.000 {built-in method builtins.hasattr}
+        3    0.000    0.000    0.000    0.000 gestion_inventario.py:640(valorizar)
+       16    0.000    0.000    0.000    0.000 _parser.py:316(_class_escape)
+        5    0.000    0.000    0.000    0.000 pathlib.py:546(__fspath__)
+        1    0.000    0.000    0.000    0.000 pathlib.py:112(_WindowsFlavour)
+       23    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+        6    0.000    0.000    0.000    0.000 pathlib.py:536(__str__)
+       87    0.000    0.000    0.000    0.000 _parser.py:256(match)
+        1    0.000    0.000    0.000    0.000 <frozen abc>:105(__new__)
+       25    0.000    0.000    0.000    0.000 {built-in method _imp.is_builtin}
+       32    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFE2B150FD0}
+        3    0.000    0.000    0.000    0.000 datetime.py:1673(__new__)
+       25    0.000    0.000    0.000    0.000 ipaddress.py:474(_prefix_from_prefix_string)
+       19    0.000    0.000    0.000    0.000 {built-in method nt._path_splitroot}
+       59    0.000    0.000    0.000    0.000 {built-in method nt.fspath}
+     10/6    0.000    0.000    0.000    0.000 _compiler.py:436(_get_literal_prefix)
+        4    0.000    0.000    0.000    0.000 _compiler.py:386(_mk_bitmap)
+       15    0.000    0.000    0.000    0.000 _compiler.py:216(_compile_charset)
+        1    0.000    0.000    0.000    0.000 random.py:119(__init__)
+        2    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha256}
+      102    0.000    0.000    0.000    0.000 {method 'split' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 __future__.py:1(<module>)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1276(IPv4Address)
+       26    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:405(parent)
+        2    0.000    0.000    0.000    0.000 datetime.py:765(__neg__)
+        7    0.000    0.000    0.000    0.000 enum.py:1367(_iter_member_by_def_)
+        3    0.000    0.000    0.000    0.000 gestion_inventario.py:663(productos_bajo_minimo)
+        2    0.000    0.000    0.000    0.000 <frozen ntpath>:538(normpath)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:599(_check_name_wrapper)
+       57    0.000    0.000    0.000    0.000 _parser.py:164(__len__)
+        2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:216(_lock_unlock_module)
+        2    0.000    0.000    0.000    0.000 functools.py:188(total_ordering)
+       43    0.000    0.000    0.000    0.000 _parser.py:293(tell)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:357(__init__)
+       19    0.000    0.000    0.000    0.000 {method 'extend' of 'list' objects}
+       50    0.000    0.000    0.000    0.000 {method 'partition' of 'str' objects}
+       24    0.000    0.000    0.000    0.000 {built-in method builtins.round}
+       10    0.000    0.000    0.000    0.000 _compiler.py:398(_simple)
+        1    0.000    0.000    0.000    0.000 random.py:128(seed)
+       60    0.000    0.000    0.000    0.000 {method 'rfind' of 'str' objects}
+       28    0.000    0.000    0.000    0.000 ipaddress.py:1854(_split_scope_id)
+      137    0.000    0.000    0.000    0.000 {built-in method _imp.release_lock}
+       16    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:48(_new_module)
+      137    0.000    0.000    0.000    0.000 {built-in method _imp.acquire_lock}
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+        1    0.000    0.000    0.000    0.000 pathlib.py:765(__truediv__)
+       21    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
+        7    0.000    0.000    0.000    0.000 {built-in method _sre.compile}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_md5}
+        1    0.000    0.000    0.000    0.000 pathlib.py:455(PurePath)
+        1    0.000    0.000    0.000    0.000 datetime.py:893(date)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:671(_BaseNetwork)
+       10    0.000    0.000    0.000    0.000 _parser.py:453(_uniq)
+        8    0.000    0.000    0.000    0.000 functools.py:479(lru_cache)
+        7    0.000    0.000    0.000    0.000 _parser.py:231(__init__)
+        1    0.000    0.000    0.000    0.000 pathlib.py:530(_make_child)
+        7    0.000    0.000    0.000    0.000 _parser.py:86(opengroup)
+        6    0.000    0.000    0.000    0.000 _compiler.py:467(_get_charset_prefix)
+        1    0.000    0.000    0.000    0.000 pathlib.py:128(<setcomp>)
+        5    0.000    0.000    0.000    0.000 datetime.py:515(_check_date_fields)
+       50    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+       51    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
+       27    0.000    0.000    0.000    0.000 _parser.py:176(append)
+        1    0.000    0.000    0.000    0.000 {function Random.seed at 0x000001DC20C8A340}
+        5    0.000    0.000    0.000    0.000 pathlib.py:147(splitroot)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+       60    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       49    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+        4    0.000    0.000    0.000    0.000 _compiler.py:388(<listcomp>)
+        2    0.000    0.000    0.000    0.000 datetime.py:1336(__new__)
+        2    0.000    0.000    0.000    0.000 datetime.py:923(__new__)
+       94    0.000    0.000    0.000    0.000 ipaddress.py:574(__int__)
+        4    0.000    0.000    0.000    0.000 <frozen ntpath>:51(normcase)
+        7    0.000    0.000    0.000    0.000 enum.py:1357(_iter_member_by_value_)
+        6    0.000    0.000    0.000    0.000 pathlib.py:523(_format_parsed_parts)
+       11    0.000    0.000    0.000    0.000 gestion_inventario.py:734(_fmt_num)
+       54    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+      105    0.000    0.000    0.000    0.000 {method 'isdigit' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 datetime.py:1311(time)
+        1    0.000    0.000    0.000    0.000 <frozen abc>:110(register)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:254(_requires_builtin_wrapper)
+        4    0.000    0.000    0.000    0.000 _parser.py:265(getwhile)
+       28    0.000    0.000    0.000    0.000 _parser.py:83(groups)
+       45    0.000    0.000    0.000    0.000 {built-in method sys.intern}
+       54    0.000    0.000    0.000    0.000 {built-in method _thread.get_ident}
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1577(_BaseV6)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1687(<setcomp>)
+        4    0.000    0.000    0.000    0.000 functools.py:966(__init__)
+       96    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
+       25    0.000    0.000    0.000    0.000 ipaddress.py:431(_ip_int_from_prefix)
+        5    0.000    0.000    0.000    0.000 datetime.py:528(_check_time_fields)
+       25    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:165(__init__)
+       29    0.000    0.000    0.000    0.000 _parser.py:113(__init__)
+        2    0.000    0.000    0.000    0.000 gestion_inventario.py:610(consultar_stock)
+       17    0.000    0.000    0.000    0.000 carga_fija.py:21(reloj)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_register}
+        1    0.000    0.000    0.000    0.000 pathlib.py:440(__getitem__)
+      105    0.000    0.000    0.000    0.000 {method 'isascii' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1460(IPv4Network)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1568(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_224}
+       22    0.000    0.000    0.000    0.000 {method '__reduce_ex__' of 'datetime.datetime' objects}
+       18    0.000    0.000    0.000    0.000 {built-in method _imp.find_frozen}
+       11    0.000    0.000    0.000    0.000 _parser.py:172(__setitem__)
+        1    0.000    0.000    0.000    0.000 random.py:103(Random)
+       24    0.000    0.000    0.000    0.000 {method 'pop' of 'dict' objects}
+       31    0.000    0.000    0.000    0.000 {method 'issuperset' of 'frozenset' objects}
+        2    0.000    0.000    0.000    0.000 functools.py:191(<setcomp>)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:2101(IPv6Interface)
+       60    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
+       25    0.000    0.000    0.000    0.000 ipaddress.py:415(_check_int_address)
+        1    0.000    0.000    0.000    0.000 <frozen abc>:121(__subclasscheck__)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1393(IPv4Interface)
+        1    0.000    0.000    0.000    0.000 {method 'union' of 'set' objects}
+       73    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1135(_BaseV4)
+        1    0.000    0.000    0.000    0.000 gestion_inventario.py:88(SistemaGestionInventario)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1097(__init__)
+       14    0.000    0.000    0.000    0.000 _compiler.py:570(isstring)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_subclasscheck}
+       35    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        7    0.000    0.000    0.000    0.000 _parser.py:963(fix_flags)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:383(_IPAddressBase)
+       10    0.000    0.000    0.000    0.000 {built-in method fromkeys}
+        2    0.000    0.000    0.000    0.000 <frozen ntpath>:87(isabs)
+       24    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
+       34    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
+       42    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha1}
+        4    0.000    0.000    0.000    0.000 _parser.py:376(_escape)
+        1    0.000    0.000    0.000    0.000 parse.py:152(_NetlocResultMixinBase)
+        1    0.000    0.000    0.000    0.000 datetime.py:573(timedelta)
+       15    0.000    0.000    0.000    0.000 _compiler.py:31(_combine_flags)
+        1    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
+       15    0.000    0.000    0.000    0.000 {built-in method _imp._fix_co_filename}
+        1    0.000    0.000    0.000    0.000 pathlib.py:129(<setcomp>)
+       24    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:413(has_location)
+        1    0.000    0.000    0.000    0.000 {method 'hexdigest' of '_hashlib.HASH' objects}
+        2    0.000    0.000    0.000    0.000 cp1252.py:18(encode)
+        7    0.000    0.000    0.000    0.000 enum.py:117(_iter_bits_lsb)
+        4    0.000    0.000    0.000    0.000 {built-in method _winapi.LCMapStringEx}
+       35    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+       16    0.000    0.000    0.000    0.000 __init__.py:424(<genexpr>)
+        1    0.000    0.000    0.000    0.000 gestion_inventario.py:746(_respuesta_error)
+        1    0.000    0.000    0.000    0.000 decoder.py:284(__init__)
+        1    0.000    0.000    0.000    0.000 <frozen os>:1081(__subclasshook__)
+        1    0.000    0.000    0.000    0.000 pathlib.py:777(parent)
+        1    0.000    0.000    0.000    0.000 pathlib.py:787(parents)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha512}
+        7    0.000    0.000    0.000    0.000 _parser.py:77(__init__)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:563(_BaseAddress)
+       35    0.000    0.000    0.000    0.000 {built-in method _operator.index}
+       16    0.000    0.000    0.000    0.000 _compiler.py:428(_get_iscased)
+        3    0.000    0.000    0.000    0.000 pathlib.py:515(_from_parsed_parts)
+       15    0.000    0.000    0.000    0.000 gestion_inventario.py:667(<genexpr>)
+       23    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_256}
+        3    0.000    0.000    0.000    0.000 enum.py:193(__get__)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1122(get_filename)
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha224}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha384}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_384}
+        2    0.000    0.000    0.000    0.000 {built-in method math.log}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_sha3_512}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_shake_128}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:895(_resolve_filename)
+       32    0.000    0.000    0.000    0.000 {built-in method builtins.chr}
+       22    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 {built-in method _hashlib.openssl_shake_256}
+       21    0.000    0.000    0.000    0.000 __init__.py:96(<lambda>)
+        3    0.000    0.000    0.000    0.000 encoder.py:105(__init__)
+       15    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:931(create_module)
+       16    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
+        5    0.000    0.000    0.000    0.000 datetime.py:51(_days_in_month)
+       10    0.000    0.000    0.000    0.000 __future__.py:83(__init__)
+        3    0.000    0.000    0.000    0.000 datetime.py:2313(_create)
+        1    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:962(create_module)
+        2    0.000    0.000    0.000    0.000 {built-in method nt.getcwd}
+        8    0.000    0.000    0.000    0.000 {method 'update' of 'dict' objects}
+       16    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+       10    0.000    0.000    0.000    0.000 gestion_inventario.py:646(<genexpr>)
+        1    0.000    0.000    0.000    0.000 datetime.py:1280(IsoCalendarDate)
+        1    0.000    0.000    0.000    0.000 random.py:215(__init_subclass__)
+        1    0.000    0.000    0.000    0.000 parse.py:361(_fix_result_transcoding)
+        7    0.000    0.000    0.000    0.000 gestion_inventario.py:378(<genexpr>)
+        1    0.000    0.000    0.000    0.000 pathlib.py:378(_RecursiveWildcardSelector)
+        4    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       19    0.000    0.000    0.000    0.000 {built-in method builtins.ord}
+        1    0.000    0.000    0.000    0.000 pathlib.py:231(_PosixFlavour)
+        3    0.000    0.000    0.000    0.000 datetime.py:46(_days_before_year)
+        1    0.000    0.000    0.000    0.000 decoder.py:254(JSONDecoder)
+        1    0.000    0.000    0.000    0.000 pathlib.py:422(_PathParents)
+        1    0.000    0.000    0.000    0.000 encoder.py:74(JSONEncoder)
+        6    0.000    0.000    0.000    0.000 gestion_inventario.py:290(<genexpr>)
+        1    0.000    0.000    0.000    0.000 random.py:787(SystemRandom)
+        1    0.000    0.000    0.000    0.000 <frozen _collections_abc>:78(_check_methods)
+        2    0.000    0.000    0.000    0.000 {built-in method nt._path_normpath}
+        1    0.000    0.000    0.000    0.000 parse.py:817(__getattr__)
+        1    0.000    0.000    0.000    0.000 gestion_inventario.py:98(__init__)
+        5    0.000    0.000    0.000    0.000 datetime.py:545(_check_tzinfo_arg)
+        2    0.000    0.000    0.000    0.000 pathlib.py:434(__len__)
+        1    0.000    0.000    0.000    0.000 <frozen codecs>:186(__init__)
+        4    0.000    0.000    0.000    0.000 functools.py:972(__set_name__)
+        2    0.000    0.000    0.000    0.000 pathlib.py:53(__init__)
+        1    0.000    0.000    0.000    0.000 pathlib.py:427(__init__)
+        7    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:795(is_package)
+        2    0.000    0.000    0.000    0.000 {built-in method _codecs.charmap_encode}
+        4    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
+       14    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
+        2    0.000    0.000    0.000    0.000 enum.py:1453(<listcomp>)
+        1    0.000    0.000    0.000    0.000 datetime.py:1219(tzinfo)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:2176(IPv6Network)
+        5    0.000    0.000    0.000    0.000 {method 'reverse' of 'list' objects}
+        4    0.000    0.000    0.000    0.000 {method 'lstrip' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 __future__.py:81(_Feature)
+        4    0.000    0.000    0.000    0.000 gestion_inventario.py:252(<genexpr>)
+        5    0.000    0.000    0.000    0.000 gestion_inventario.py:637(<genexpr>)
+        1    0.000    0.000    0.000    0.000 pathlib.py:49(_Flavour)
+        1    0.000    0.000    0.000    0.000 parse.py:826(_Quoter)
+        3    0.000    0.000    0.000    0.000 gestion_inventario.py:569(<genexpr>)
+        5    0.000    0.000    0.000    0.000 enum.py:1374(<lambda>)
+        1    0.000    0.000    0.000    0.000 pathlib.py:300(_Selector)
+        1    0.000    0.000    0.000    0.000 parse.py:190(_NetlocResultMixinStr)
+        1    0.000    0.000    0.000    0.000 parse.py:220(_NetlocResultMixinBytes)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1220(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
+        3    0.000    0.000    0.000    0.000 enum.py:1257(value)
+        1    0.000    0.000    0.000    0.000 decoder.py:20(JSONDecodeError)
+        1    0.000    0.000    0.000    0.000 pathlib.py:834(PurePosixPath)
+        1    0.000    0.000    0.000    0.000 parse.py:136(_ResultMixinStr)
+        1    0.000    0.000    0.000    0.000 {built-in method math.exp}
+        3    0.000    0.000    0.000    0.000 {built-in method sys._getframe}
+        1    0.000    0.000    0.000    0.000 pathlib.py:331(_PreciseSelector)
+        1    0.000    0.000    0.000    0.000 pathlib.py:844(PureWindowsPath)
+        1    0.000    0.000    0.000    0.000 pathlib.py:1398(WindowsPath)
+        3    0.000    0.000    0.000    0.000 gestion_inventario.py:458(<genexpr>)
+        2    0.000    0.000    0.000    0.000 {method 'insert' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method _imp.get_frozen_object}
+        1    0.000    0.000    0.000    0.000 pathlib.py:94(join_parsed_parts)
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 pathlib.py:325(_TerminatingSelector)
+        1    0.000    0.000    0.000    0.000 pathlib.py:347(_WildcardSelector)
+        1    0.000    0.000    0.000    0.000 parse.py:144(_ResultMixinBytes)
+        1    0.000    0.000    0.000    0.000 parse.py:323(DefragResult)
+        1    0.000    0.000    0.000    0.000 parse.py:331(SplitResult)
+        1    0.000    0.000    0.000    0.000 parse.py:350(SplitResultBytes)
+        1    0.000    0.000    0.000    0.000 parse.py:355(ParseResultBytes)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:20(AddressValueError)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:24(NetmaskValueError)
+        1    0.000    0.000    0.000    0.000 ipaddress.py:1127(_BaseConstants)
+        2    0.000    0.000    0.000    0.000 {built-in method io.text_encoding}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 pathlib.py:1391(PosixPath)
+        1    0.000    0.000    0.000    0.000 parse.py:336(ParseResult)
+        1    0.000    0.000    0.000    0.000 parse.py:342(DefragResultBytes)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+
+

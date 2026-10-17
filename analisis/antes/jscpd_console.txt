@@ -1,0 +1,25 @@
+[1mClone found (python)[22m
+ - [1m[32mgestion_inventario.py[39m[22m [280:57 - 292:20] (13 lines, 99 tokens)
+   gestion_inventario.py [368:58 - 380:20]
+[1mClone found (python)[22m
+ - [1m[32mgestion_inventario.py[39m[22m [281:46 - 292:20] (12 lines, 95 tokens)
+   gestion_inventario.py [560:58 - 571:20]
+[1mClone found (python)[22m
+ - [1m[32mgestion_inventario.py[39m[22m [331:35 - 340:33] (10 lines, 53 tokens)
+   gestion_inventario.py [518:33 - 527:33]
+[1mClone found (python)[22m
+ - [1m[32mgestion_inventario.py[39m[22m [362:33 - 380:20] (19 lines, 123 tokens)
+   gestion_inventario.py [442:33 - 460:20]
+[1mClone found (python)[22m
+ - [1m[32mgestion_inventario.py[39m[22m [615:34 - 622:18] (8 lines, 61 tokens)
+   gestion_inventario.py [631:16 - 638:10]
+[90m┌────────┬────────────────┬─────────────┬──────────────┬──────────────┬──────────────────┬───────────────────┐[39m
+[90m│[39m[31m Format [39m[90m│[39m[31m Files analyzed [39m[90m│[39m[31m Total lines [39m[90m│[39m[31m Total tokens [39m[90m│[39m[31m Clones found [39m[90m│[39m[31m Duplicated lines [39m[90m│[39m[31m Duplicated tokens [39m[90m│[39m
+[90m├────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤[39m
+[90m│[39m python [90m│[39m 1              [90m│[39m 781         [90m│[39m 3952         [90m│[39m 5            [90m│[39m 62 (7.94%)       [90m│[39m 431 (10.91%)      [90m│[39m
+[90m├────────┼────────────────┼─────────────┼──────────────┼──────────────┼──────────────────┼───────────────────┤[39m
+[90m│[39m [1mTotal:[22m [90m│[39m 1              [90m│[39m 781         [90m│[39m 3952         [90m│[39m 5            [90m│[39m 62 (7.94%)       [90m│[39m 431 (10.91%)      [90m│[39m
+[90m└────────┴────────────────┴─────────────┴──────────────┴──────────────┴──────────────────┴───────────────────┘[39m
+[90mFound 5 clones.[39m
+[32mJSON report saved to C:\Users\Esteban\Documents\universidad\codigo\analisis\antes\jscpd\jscpd-report.json[39m
+[90mtime: 9.659ms[39m

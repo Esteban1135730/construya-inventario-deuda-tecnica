@@ -1,0 +1,223 @@
+{
+  "duplicates": [
+    {
+      "firstFile": {
+        "end": 292,
+        "endLoc": {
+          "column": 19,
+          "line": 292,
+          "position": 11245
+        },
+        "name": "gestion_inventario.py",
+        "start": 280,
+        "startLoc": {
+          "column": 56,
+          "line": 280,
+          "position": 10641
+        }
+      },
+      "format": "python",
+      "fragment": "                \"costo_promedio_resultante\": nuevo_costo,\n                \"stock_resultante\": stock_res,\n                \"responsable\": str(responsable) if responsable is not None else \"\",\n                \"motivo\": str(motivo) if motivo is not None else \"\",\n                \"cliente\": str(cliente) if cliente is not None else \"\",\n                \"fecha\": fecha_mov,\n            }\n            self._movimientos.append(movimiento)\n            self._cache_valorizacion_obsoleta = None\n\n            stock_total = sum(float(v) for v in prod[\"stock_por_bodega\"].values())\n            alerta = stock_total < float(prod[\"stock_minimo\"])\n            msg = (",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 13,
+      "secondFile": {
+        "end": 380,
+        "endLoc": {
+          "column": 19,
+          "line": 380,
+          "position": 14932
+        },
+        "name": "gestion_inventario.py",
+        "start": 368,
+        "startLoc": {
+          "column": 57,
+          "line": 368,
+          "position": 14328
+        }
+      },
+      "tokens": 99
+    },
+    {
+      "firstFile": {
+        "end": 292,
+        "endLoc": {
+          "column": 19,
+          "line": 292,
+          "position": 11245
+        },
+        "name": "gestion_inventario.py",
+        "start": 281,
+        "startLoc": {
+          "column": 45,
+          "line": 281,
+          "position": 10689
+        }
+      },
+      "format": "python",
+      "fragment": "                \"stock_resultante\": stock_res,\n                \"responsable\": str(responsable) if responsable is not None else \"\",\n                \"motivo\": str(motivo) if motivo is not None else \"\",\n                \"cliente\": str(cliente) if cliente is not None else \"\",\n                \"fecha\": fecha_mov,\n            }\n            self._movimientos.append(movimiento)\n            self._cache_valorizacion_obsoleta = None\n\n            stock_total = sum(float(v) for v in prod[\"stock_por_bodega\"].values())\n            alerta = stock_total < float(prod[\"stock_minimo\"])\n            msg = (",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 12,
+      "secondFile": {
+        "end": 571,
+        "endLoc": {
+          "column": 19,
+          "line": 571,
+          "position": 23271
+        },
+        "name": "gestion_inventario.py",
+        "start": 560,
+        "startLoc": {
+          "column": 57,
+          "line": 560,
+          "position": 22715
+        }
+      },
+      "tokens": 95
+    },
+    {
+      "firstFile": {
+        "end": 340,
+        "endLoc": {
+          "column": 32,
+          "line": 340,
+          "position": 13119
+        },
+        "name": "gestion_inventario.py",
+        "start": 331,
+        "startLoc": {
+          "column": 34,
+          "line": 331,
+          "position": 12681
+        }
+      },
+      "format": "python",
+      "fragment": "                    bodega_destino,\n                    \"El producto \" + codigo_norm + \" no existe en el inventario.\",\n                )\n            prod = self._productos[codigo_norm]\n            disponible = float(prod[\"stock_por_bodega\"].get(bodega_norm, 0))\n            if (not forzar) and cantidad_num > disponible:\n                return self._respuesta_error(\n                    tipo_norm,\n                    codigo_norm,\n                    bodega_norm,",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 10,
+      "secondFile": {
+        "end": 527,
+        "endLoc": {
+          "column": 32,
+          "line": 527,
+          "position": 21132
+        },
+        "name": "gestion_inventario.py",
+        "start": 518,
+        "startLoc": {
+          "column": 32,
+          "line": 518,
+          "position": 20694
+        }
+      },
+      "tokens": 53
+    },
+    {
+      "firstFile": {
+        "end": 380,
+        "endLoc": {
+          "column": 19,
+          "line": 380,
+          "position": 14932
+        },
+        "name": "gestion_inventario.py",
+        "start": 362,
+        "startLoc": {
+          "column": 32,
+          "line": 362,
+          "position": 14066
+        }
+      },
+      "format": "python",
+      "fragment": "                \"tipo\": \"SALIDA\",\n                \"codigo\": codigo_norm,\n                \"bodega\": bodega_norm,\n                \"bodega_destino\": \"\",\n                \"cantidad\": cantidad_num,\n                \"costo\": costo_actual,\n                \"costo_promedio_resultante\": costo_actual,\n                \"stock_resultante\": stock_res,\n                \"responsable\": str(responsable) if responsable is not None else \"\",\n                \"motivo\": str(motivo) if motivo is not None else \"\",\n                \"cliente\": str(cliente) if cliente is not None else \"\",\n                \"fecha\": fecha_mov,\n            }\n            self._movimientos.append(movimiento)\n            self._cache_valorizacion_obsoleta = None\n\n            stock_total = sum(float(v) for v in prod[\"stock_por_bodega\"].values())\n            alerta = stock_total < float(prod[\"stock_minimo\"])\n            msg = (",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 19,
+      "secondFile": {
+        "end": 460,
+        "endLoc": {
+          "column": 19,
+          "line": 460,
+          "position": 18464
+        },
+        "name": "gestion_inventario.py",
+        "start": 442,
+        "startLoc": {
+          "column": 32,
+          "line": 442,
+          "position": 17598
+        }
+      },
+      "tokens": 123
+    },
+    {
+      "firstFile": {
+        "end": 622,
+        "endLoc": {
+          "column": 17,
+          "line": 622,
+          "position": 25279
+        },
+        "name": "gestion_inventario.py",
+        "start": 615,
+        "startLoc": {
+          "column": 33,
+          "line": 615,
+          "position": 24870
+        }
+      },
+      "format": "python",
+      "fragment": "                resultado[cod] = {\n                    \"nombre\": prod[\"nombre\"],\n                    \"categoria\": prod[\"categoria\"],\n                    \"costo_promedio\": prod[\"costo_promedio\"],\n                    \"stock_minimo\": prod[\"stock_minimo\"],\n                    \"stock_por_bodega\": dict(prod[\"stock_por_bodega\"]),\n                    \"stock_total\": sum(float(v) for v in prod[\"stock_por_bodega\"].values()),\n                }",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 8,
+      "secondFile": {
+        "end": 638,
+        "endLoc": {
+          "column": 9,
+          "line": 638,
+          "position": 25972
+        },
+        "name": "gestion_inventario.py",
+        "start": 631,
+        "startLoc": {
+          "column": 15,
+          "line": 631,
+          "position": 25619
+        }
+      },
+      "tokens": 61
+    }
+  ],
+  "statistics": {
+    "detectionDate": "2026-10-17T17:39:22.816Z",
+    "formats": {
+      "python": {
+        "clones": 5,
+        "duplicatedLines": 62,
+        "duplicatedTokens": 431,
+        "lines": 781,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 7.93854033290653,
+        "percentageTokens": 10.90587044534413,
+        "sources": 1,
+        "tokens": 3952
+      }
+    },
+    "total": {
+      "clones": 5,
+      "duplicatedLines": 62,
+      "duplicatedTokens": 431,
+      "lines": 781,
+      "newClones": 0,
+      "newDuplicatedLines": 0,
+      "percentage": 7.93854033290653,
+      "percentageTokens": 10.90587044534413,
+      "sources": 1,
+      "tokens": 3952
+    }
+  }
+}

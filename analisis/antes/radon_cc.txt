@@ -1,0 +1,18 @@
+C:\Users\Esteban\Documents\universidad\codigo\_tmp_analisis\gestion_inventario.py
+    M 111:4 SistemaGestionInventario.procesar_operacion_completa - F (67)
+    C 88:0 SistemaGestionInventario - C (13)
+    M 695:4 SistemaGestionInventario.generar_informe_operativo - B (8)
+    M 610:4 SistemaGestionInventario.consultar_stock - B (7)
+    M 680:4 SistemaGestionInventario.obtener_movimientos - B (7)
+    M 746:4 SistemaGestionInventario._respuesta_error - B (7)
+    F 22:0 calcular_iva_colombiano - B (6)
+    M 734:4 SistemaGestionInventario._fmt_num - B (6)
+    M 640:4 SistemaGestionInventario.valorizar - A (4)
+    M 663:4 SistemaGestionInventario.productos_bajo_minimo - A (4)
+    F 50:0 aplicar_descuento_por_volumen - A (3)
+    F 78:0 _normalizar_texto_legacy - A (3)
+    F 70:0 _formatear_moneda_fantasma - A (2)
+    M 98:4 SistemaGestionInventario.__init__ - A (2)
+
+14 blocks (classes, functions, methods) analyzed.
+Average complexity: B (9.928571428571429)
