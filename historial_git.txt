@@ -1,27 +1,28 @@
-*   5d5c98c (HEAD -> main) Merge branch 'validacion': reportes posteriores y prueba de no-regresión.
+* 07a4b26 Actualiza métricas posteriores y script de generación del informe PDF.
+* 7eb2ed6 Documenta el historial Git en texto para entrega sin carpeta .git.
+*   5d5c98c Merge branch 'validacion': reportes posteriores y prueba de no-regresión.
 |\  
-| * 76d723c (validacion) Agrega análisis posterior y comparación de checksum de carga fija.
+| * 76d723c Agrega análisis posterior y comparación de checksum de carga fija.
 |/  
 *   932a4c6 Merge branch 'refactorizacion': estructura interna limpia sin cambio funcional.
 |\  
-| * f13b707 (refactorizacion) Refactoriza el inventario extrayendo métodos y objetos de dominio.
+| * f13b707 Refactoriza el inventario extrayendo métodos y objetos de dominio.
 |/  
 *   261e575 Merge branch 'diagnostico': incorpora pruebas y reportes previos.
 |\  
-| * 66336da (diagnostico) Registra evidencia de análisis estático y dinámico previos.
+| * 66336da Registra evidencia de análisis estático y dinámico previos.
 | * 95b1552 Agrega pruebas de caracterización y carga fija con checksum.
 |/  
 * 9252f8a Agrega módulo inicial de inventario con deuda técnica deliberada.
-commit 5d5c98c5586eb1358d455a8ad1cf183b949efc80
-Merge: 932a4c6 76d723c
-Author:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
-AuthorDate: Sat Oct 17 12:49:41 2026 -0500
-Commit:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
-CommitDate: Sat Oct 17 12:49:41 2026 -0500
+commit 07a4b263ff218bac4c7d7f560eaaeacc1059dff1
+Author:     Esteban Amaya <esteban.amaya@estudiantes.local>
+AuthorDate: Sat Oct 17 12:52:31 2026 -0500
+Commit:     Esteban Amaya <esteban.amaya@estudiantes.local>
+CommitDate: Sat Oct 17 12:52:31 2026 -0500
 
-    Merge branch 'validacion': reportes posteriores y prueba de no-regresión.
+    Actualiza métricas posteriores y script de generación del informe PDF.
     
-    Cierra el ciclo diagnóstico-refactorización-validación de la Unidad 2.
+    Alinea la evidencia de Radon/coverage/Pylint con el código refactorizado final.
 
 commit 76d723c1210941b94b4619fe43037cdd4e1c73e5
 Author:     Esteban Amaya <esteban.amaya@estudiantes.local>
@@ -34,6 +35,14 @@ CommitDate: Sat Oct 17 12:49:41 2026 -0500
     Demuestra mejora de complejidad/cobertura y equivalencia comportamental
     antes frente a después de la refactorización.
 
+commit 7eb2ed674a941f358e3e80bdaae782939eb0628f
+Author:     Esteban Amaya <esteban.amaya@estudiantes.local>
+AuthorDate: Sat Oct 17 12:49:41 2026 -0500
+Commit:     Esteban Amaya <esteban.amaya@estudiantes.local>
+CommitDate: Sat Oct 17 12:49:41 2026 -0500
+
+    Documenta el historial Git en texto para entrega sin carpeta .git.
+
 commit 932a4c65234e43a6cded312a5b36408cc98fb088
 Merge: 261e575 f13b707
 Author:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
@@ -45,6 +54,17 @@ CommitDate: Sat Oct 17 12:49:41 2026 -0500
     
     Incorpora extract method, constantes, objeto de parámetros y eliminación
     de dead code documentados en el informe.
+
+commit 5d5c98c5586eb1358d455a8ad1cf183b949efc80
+Merge: 932a4c6 76d723c
+Author:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
+AuthorDate: Sat Oct 17 12:49:41 2026 -0500
+Commit:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
+CommitDate: Sat Oct 17 12:49:41 2026 -0500
+
+    Merge branch 'validacion': reportes posteriores y prueba de no-regresión.
+    
+    Cierra el ciclo diagnóstico-refactorización-validación de la Unidad 2.
 
 commit f13b70709a22b1fb6ea0c5b01b72b9892612ae46
 Author:     Esteban Amaya <esteban.amaya@estudiantes.local>
