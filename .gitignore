@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+*.bak_analisis
+_tmp_analisis/
+gestion_inventario.py.bak_analisis
+.venv/
+venv/
+node_modules/
+*.egg-info/
+.mypy_cache/

@@ -1,0 +1,7 @@
+pytest>=7.0
+coverage>=7.0
+pylint>=3.0
+radon>=6.0
+vulture>=2.0
+reportlab>=4.0
+Pillow>=10.0
