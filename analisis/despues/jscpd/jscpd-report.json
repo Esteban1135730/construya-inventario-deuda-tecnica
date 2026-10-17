@@ -1,0 +1,71 @@
+{
+  "duplicates": [
+    {
+      "firstFile": {
+        "end": 207,
+        "endLoc": {
+          "column": 5,
+          "line": 207,
+          "position": 7022
+        },
+        "name": "gestion_inventario.py",
+        "start": 192,
+        "startLoc": {
+          "column": 11,
+          "line": 192,
+          "position": 6717
+        }
+      },
+      "format": "python",
+      "fragment": "        cls,\n        tipo,\n        codigo,\n        nombre=\"\",\n        categoria=\"\",\n        costo=0,\n        cantidad=0,\n        stock_minimo=0,\n        bodega=\"\",\n        bodega_destino=\"\",\n        responsable=\"\",\n        motivo=\"\",\n        cliente=\"\",\n        fecha=None,\n        forzar=False,\n    ) -> \"SolicitudOperacion\":",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 16,
+      "secondFile": {
+        "end": 277,
+        "endLoc": {
+          "column": 5,
+          "line": 277,
+          "position": 8870
+        },
+        "name": "gestion_inventario.py",
+        "start": 262,
+        "startLoc": {
+          "column": 12,
+          "line": 262,
+          "position": 8565
+        }
+      },
+      "tokens": 54
+    }
+  ],
+  "statistics": {
+    "detectionDate": "2026-10-17T17:39:28.067Z",
+    "formats": {
+      "python": {
+        "clones": 1,
+        "duplicatedLines": 16,
+        "duplicatedTokens": 54,
+        "lines": 745,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 2.1476510067114094,
+        "percentageTokens": 1.3432835820895521,
+        "sources": 1,
+        "tokens": 4020
+      }
+    },
+    "total": {
+      "clones": 1,
+      "duplicatedLines": 16,
+      "duplicatedTokens": 54,
+      "lines": 745,
+      "newClones": 0,
+      "newDuplicatedLines": 0,
+      "percentage": 2.1476510067114094,
+      "percentageTokens": 1.3432835820895521,
+      "sources": 1,
+      "tokens": 4020
+    }
+  }
+}

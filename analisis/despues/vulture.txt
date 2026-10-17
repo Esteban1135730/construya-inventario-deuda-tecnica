@@ -1,0 +1,6 @@
+_tmp_analisis\gestion_inventario.py:23: unused variable 'TIPOS_SOPORTADOS' (60% confidence)
+_tmp_analisis\gestion_inventario.py:252: unused class 'SistemaGestionInventario' (60% confidence)
+_tmp_analisis\gestion_inventario.py:261: unused method 'procesar_operacion_completa' (60% confidence)
+_tmp_analisis\gestion_inventario.py:654: unused method 'consultar_stock' (60% confidence)
+_tmp_analisis\gestion_inventario.py:701: unused method 'obtener_movimientos' (60% confidence)
+_tmp_analisis\gestion_inventario.py:713: unused method 'generar_informe_operativo' (60% confidence)
