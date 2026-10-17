@@ -1,0 +1,102 @@
+*   5d5c98c (HEAD -> main) Merge branch 'validacion': reportes posteriores y prueba de no-regresión.
+|\  
+| * 76d723c (validacion) Agrega análisis posterior y comparación de checksum de carga fija.
+|/  
+*   932a4c6 Merge branch 'refactorizacion': estructura interna limpia sin cambio funcional.
+|\  
+| * f13b707 (refactorizacion) Refactoriza el inventario extrayendo métodos y objetos de dominio.
+|/  
+*   261e575 Merge branch 'diagnostico': incorpora pruebas y reportes previos.
+|\  
+| * 66336da (diagnostico) Registra evidencia de análisis estático y dinámico previos.
+| * 95b1552 Agrega pruebas de caracterización y carga fija con checksum.
+|/  
+* 9252f8a Agrega módulo inicial de inventario con deuda técnica deliberada.
+commit 5d5c98c5586eb1358d455a8ad1cf183b949efc80
+Merge: 932a4c6 76d723c
+Author:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
+AuthorDate: Sat Oct 17 12:49:41 2026 -0500
+Commit:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
+CommitDate: Sat Oct 17 12:49:41 2026 -0500
+
+    Merge branch 'validacion': reportes posteriores y prueba de no-regresión.
+    
+    Cierra el ciclo diagnóstico-refactorización-validación de la Unidad 2.
+
+commit 76d723c1210941b94b4619fe43037cdd4e1c73e5
+Author:     Esteban Amaya <esteban.amaya@estudiantes.local>
+AuthorDate: Sat Oct 17 12:49:41 2026 -0500
+Commit:     Esteban Amaya <esteban.amaya@estudiantes.local>
+CommitDate: Sat Oct 17 12:49:41 2026 -0500
+
+    Agrega análisis posterior y comparación de checksum de carga fija.
+    
+    Demuestra mejora de complejidad/cobertura y equivalencia comportamental
+    antes frente a después de la refactorización.
+
+commit 932a4c65234e43a6cded312a5b36408cc98fb088
+Merge: 261e575 f13b707
+Author:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
+AuthorDate: Sat Oct 17 12:49:41 2026 -0500
+Commit:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
+CommitDate: Sat Oct 17 12:49:41 2026 -0500
+
+    Merge branch 'refactorizacion': estructura interna limpia sin cambio funcional.
+    
+    Incorpora extract method, constantes, objeto de parámetros y eliminación
+    de dead code documentados en el informe.
+
+commit f13b70709a22b1fb6ea0c5b01b72b9892612ae46
+Author:     Esteban Amaya <esteban.amaya@estudiantes.local>
+AuthorDate: Sat Oct 17 12:49:40 2026 -0500
+Commit:     Esteban Amaya <esteban.amaya@estudiantes.local>
+CommitDate: Sat Oct 17 12:49:40 2026 -0500
+
+    Refactoriza el inventario extrayendo métodos y objetos de dominio.
+    
+    Introduce Producto, Movimiento y SolicitudOperacion; sustituye literales
+    mágicos por constantes; elimina código muerto. La firma pública no cambia.
+
+commit 66336dadc043d819644fdb9c2a6d133771f60f7b
+Author:     Esteban Amaya <esteban.amaya@estudiantes.local>
+AuthorDate: Sat Oct 17 12:43:50 2026 -0500
+Commit:     Esteban Amaya <esteban.amaya@estudiantes.local>
+CommitDate: Sat Oct 17 12:43:50 2026 -0500
+
+    Registra evidencia de análisis estático y dinámico previos.
+    
+    Incluye Pylint, Radon, Vulture, jscpd, coverage, cProfile y trace sobre
+    la versión con deuda técnica.
+
+commit 261e575b621cac9f339953687a3d8a4ac1475237
+Merge: 9252f8a 66336da
+Author:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
+AuthorDate: Sat Oct 17 12:43:50 2026 -0500
+Commit:     Esteban1135730 <70926203+Esteban1135730@users.noreply.github.com>
+CommitDate: Sat Oct 17 12:43:50 2026 -0500
+
+    Merge branch 'diagnostico': incorpora pruebas y reportes previos.
+    
+    Evidencia de bad smells y baseline de comportamiento para la Unidad 2.
+
+commit 95b1552e6b969fb2282c57340e3f9d54cc74c2de
+Author:     Esteban Amaya <esteban.amaya@estudiantes.local>
+AuthorDate: Sat Oct 17 12:43:50 2026 -0500
+Commit:     Esteban Amaya <esteban.amaya@estudiantes.local>
+CommitDate: Sat Oct 17 12:43:50 2026 -0500
+
+    Agrega pruebas de caracterización y carga fija con checksum.
+    
+    Fijan el comportamiento observable antes de refactorizar, para detectar
+    cualquier cambio funcional no intencional.
+
+commit 9252f8a5d5a90e15cfc4f231b030243e48be90a7
+Author:     Esteban Amaya <esteban.amaya@estudiantes.local>
+AuthorDate: Sat Oct 17 12:43:50 2026 -0500
+Commit:     Esteban Amaya <esteban.amaya@estudiantes.local>
+CommitDate: Sat Oct 17 12:43:50 2026 -0500
+
+    Agrega módulo inicial de inventario con deuda técnica deliberada.
+    
+    Se parte de un monolito con método excesivamente largo, duplicación y
+    código muerto para permitir el diagnóstico y la refactorización.
